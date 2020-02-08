@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Caveat+Brush&display=swap');
+
+
+.grid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+}
+
+.grid img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cell {
+
+    border: none;
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #E8EC74;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    font-family: 'Abel', sans-serif;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.cell p {
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Caveat Brush', cursive;
+    color: white;
+}
+
+.cell h2 {
+    color: #E8EC74;
+    padding: 10px;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.cell h3 {
+    color: #E8EC74;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    padding-top: 5px;
+}

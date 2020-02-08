@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Woman portraits</title>
+    <meta charset="UTF-8">
+    <meta name="description" contact="Working with CSS grid">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <style>
+        * {
+            background-color: #cf4856;
+        }
+
+        .grid {
+            width: 70%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 130px 130px 250px;
+        }
+
+
+
+        .cell:nth-child(2) {
+            grid-row: span 2;
+        }
+
+        .cell:nth-child(3) {
+            grid-row: span 3;
+        }
+
+        .cell:nth-child(5) {
+            grid-column: span 2;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Woman portraits
+        </h1>
+    </header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallerylayout1.html">Man portraits</a></li>
+        <li><a href="gallerylayout2.html">Woman portraits</a></li>
+    </ul>
+
+
+    <div class="grid">
+
+        <div class="cell">
+            <img src="image/eye1.jpg" alt="eye1">
+
+        </div>
+
+
+        <div class="cell">
+            <img src="image/woman6.jpg" alt="woman6">
+
+        </div>
+
+        <div class="cell">
+            <img src="image/woman1.jpg" alt="woman1">
+
+        </div>
+
+        <div class="cell">
+            <h2>Beutiful</h2>
+
+        </div>
+
+        <div class="cell">
+            <img src="image/pattern.jpg" alt="woman2">
+
+        </div>
+
+        <div class="cell">
+            <img src="image/woman5.jpg" alt="woman5">
+
+        </div>
+
+
+        <div class="cell">
+            <img src="image/woman2.jpg" alt="woman2">
+
+        </div>
+        <div class="cell">
+            <P>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. The intent is to display the likeness, personality, and even the mood of the person. </P>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+</body>
+
+</html>
